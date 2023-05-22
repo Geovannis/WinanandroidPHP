@@ -1,8 +1,8 @@
 <?php
-$servidor= "winandroid.es";
-$usuario= "usuario";
-$password = "clave";
-$nombreBD= "sisgeo_bd";
+$servidor= "localhost";
+$usuario= "user";
+$password = "pass";
+$nombreBD= "name_bd";
 $db = new mysqli($servidor, $usuario, $password, $nombreBD);
 if ($db->connect_error) {
     die("la conexión ha fallado: " . $db->connect_error);
